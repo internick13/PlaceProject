@@ -32,6 +32,7 @@ public class PermissionActivity extends AppCompatActivity {
         btnGrant = findViewById(R.id.btn_grant);
 
         if(ContextCompat.checkSelfPermission(PermissionActivity.this, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
+            startActivity(new Intent(PermissionActivity.this, MapActivity.class));
             finish();
             return;
         }
