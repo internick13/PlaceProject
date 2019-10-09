@@ -43,7 +43,7 @@
         android:layout_alignParentBottom="true"
         android:text="Grant Permissions"
         android:textColor="@android:color/white"
-        android:background="@drawable/background_buttons"
+        android:background="@drawable/background_btn"
         android:textAllCaps="false" />
 
 </RelativeLayout>
